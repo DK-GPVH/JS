@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-left: 0.6em solid red;
+    border-right: 0.6em solid red;
+    font-size: .9em;
+    color: #fab;
+    transition: color 0.5s , background 0.7s;
+}
+
+h1{
+    color: #fab;
+}
+input:hover{
+    background-color: red;
+    color: black;
+}
+input:focus{
+    color: #fab;
+    background-color: maroon;
+}
+input::placeholder{
+    color: #fab;
+    transition: color 0.5;
+}
+input:hover::placeholder{
+    color: black;
+}
+
+#btn{
+    width: 50%;    
+    padding: 0.5em;
+    background-color: red;
+    border: 2px solid lightcoral;
+    font-size: 1.2em;
+    color: maroon;
+    transition: background 0.5s,color 0.7,border 0.4;
+}
+
+#btn:hover{
+    background-color: maroon;
+    color: red;
+    border: 2px solid red;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    background-color: darkred;
+    padding: 2em;
+}
+
+
+.success{
+    color:#0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.error{
+    color:#f00; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

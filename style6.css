@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid blue;
+    border-radius: 1em;
+    background-color: #05f;
+    color: white;
+    font-size: 1em;
+}
+
+.container{
+    margin: 2em;
+    display: block;
+    align-items: center;
+}
+
+.name{
+    margin: 1em;
+    font-size: larger;
+}

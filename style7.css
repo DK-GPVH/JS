@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.getInfo{
+    padding: .8em;
+    margin:2em;
+    color:#00f;
+    border: 0;
+    background-color: aqua;
+    border-top: 2px solid #0b9;
+}
+
+.getInfo:hover{
+    cursor: pointer;
+}
+
+.container{
+    margin: 1em;
+    background-color: #e9e9e9;
+}
+
+.aprobados{
+    color: #0b9;
+    padding: 0.5em;
+}
+
+.desaprobados{
+    color: #f00;
+    padding: 0.5em;
+}
+
+.error{
+    color: red;
+    text-decoration: double;
+    padding: 1em;
+    
+}

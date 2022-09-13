@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 15%;
+    grid-template-columns: repeat(4,minmax(8%,max-content));
+    grid-auto-rows: 15%;
+    background-color: #111;
+}
+
+.grid-items{
+    padding: 1em;
+    margin: 0.5em;
+    border: 2px solid #05f;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0ff;
+}
+.grid-items select{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: red;
+    border-radius: 10%;
+    border-color: #05f;
+}
+.button{
+    padding: 1em;
+    border-radius: 5%;
+    border-color: #0df;
+    background-color: #0f5;
+    color: #05f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

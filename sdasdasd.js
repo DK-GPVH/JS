@@ -1,0 +1,1 @@
+window.moveBy(100,200)
